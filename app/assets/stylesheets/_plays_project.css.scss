@@ -1,0 +1,56 @@
+
+#plays_wrapper {
+	
+	padding: 3em 0;
+	.play {
+		text-align: center;
+	
+	h2 {	
+		margin: 0;
+		font-size: 1.5em;
+		
+
+		a {
+			text-decoration: none;
+			color: $dark;
+			&:hover {
+				color: $highlight;
+			}
+		}
+	}
+	hr {
+		margin: 2em auto;
+	}
+
+}
+}
+
+#post_show_content {
+  header {
+  	ext-align: center;
+    .date {
+      font-size: .9em;
+      color: $light;
+      margin: 0;
+}
+h1 {
+margin: 0; }
+}
+hr {
+    margin: 3em auto;
+  }
+}
+#share_box { text-align: center; p{
+    padding: 0 0 1em 0;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dark;
+    font-size: .8em;
+  }
+i{
+color: $dark; padding: 1em 1.5em; &:hover {
+      color: $highlight;
+      cursor: pointer;
+    }
+} }

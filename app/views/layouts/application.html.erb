@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Charlespage</title>
+	 <title>Charles Traeger Playwright</title>
+    <link href='http://fonts.googleapis.com/css?family=BebusNeue:400,700'
+						rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-
+						awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/application.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+  	<header id="main_navigation" class="clearfix">
+  		<a href="index.html" class="name">Charles Traeger</a>
+  		<nav>
+
+  			<a href="bio.html">Bio</a>
+  			<a href="plays.html">Plays</a>
+        <a href="news.html">News</a>
+  			<a href="contact.html">Contact</a>
+  		
+  		</nav>  		
+
+  	</header>
 
 <%= yield %>
+
+<footer id="main_footer">
+			<p class="copyright">&copy;2015 Charles R. Traeger</p>
+
+			<nav>
+
+        <a href="http://twitter.com" target="_blank">
+        <i class="fa fa-twitter"></i></a>
+        <a href="http://linkedin.com" target="_blank">
+        <i class="fa fa-linkedin-square"></i></a>
+        
+        
+      </nav>
+    </footer>
 
 </body>
 </html>
