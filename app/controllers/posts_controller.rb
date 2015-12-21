@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
 
 	def index
+  	@posts = Post.all
 	end
 
 	def new
@@ -24,7 +25,7 @@ class PostsController < ApplicationController
 	def update
 		@post = Post.find(params[:id])
 		if @post.update post_params
-			redirect_to @post, notice: "Post update"
+			redirect_to posts_path, notice: "Post update"
 		else
 
 			render 'edit', notice: "post was not updated"

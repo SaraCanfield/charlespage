@@ -233,6 +233,10 @@ input[type=”submit”], .button {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 
 @import 'welcome';
 @import 'plays_project';
