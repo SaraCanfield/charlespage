@@ -12,6 +12,14 @@ $border: #282828;
 	box-sizing: border-box;
 }
 
+.left {
+	
+	text-align: center;
+}
+.clear {
+	clear:left;
+	clear: center;
+}
 #top, #bottom, #left, #right {
 	background: black;
 	position: fixed;
@@ -183,7 +191,7 @@ hr {
 }
 
 #main_footer {
-  padding: 2.5em 5%;
+  padding: 2.5em 5% ;
   border-top: 1px solid $border;
 
   .copyright {
